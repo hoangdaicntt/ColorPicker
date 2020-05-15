@@ -46,7 +46,7 @@ function Slider(options, container) {
   this.options = extend(
     {
       color: '#f8f8f8',
-      cssPrefix: 'tui-colorpicker-'
+      cssPrefix: 'hd-colorpicker-'
     },
     options
   );

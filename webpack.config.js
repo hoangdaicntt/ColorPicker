@@ -50,7 +50,7 @@ module.exports = function (env, argv) {
             library: ['HDColorPicker'],
             libraryTarget: 'umd',
             path: path.resolve('C:\\Users\\hoangdai\\Documents\\UI\\PlaceIt\\edit-image\\src\\plugins\\color-picker'),
-            publicPath: 'C:\\Users\\hoangdai\\Documents\\UI\\PlaceIt\\edit-image\\src\\plugins\\color-picker',
+            publicPath: 'dist',
             filename: FILENAME + '.js'
         },
         module: {
@@ -70,9 +70,9 @@ module.exports = function (env, argv) {
                     loader: 'babel-loader'
                 },
                 {
-                    test: /\.styl$/,
+                    test: /\.css$/,
                     use: [MiniCssExtractPlugin.loader, 'css-loader', 'stylus-loader'],
-                    include: path.join(__dirname, 'src/styl')
+                    include: path.join(__dirname, 'src/style')
                 }
             ]
         },

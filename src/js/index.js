@@ -8,17 +8,18 @@ var Palette = require('./palette');
 var Slider = require('./slider');
 var colorUtil = require('./colorUtil');
 var svgvml = require('./svgvml');
+var css = require('../style/style.css');
 
 var colorPicker = {
-  Collection: Collection,
-  View: View,
-  Drag: Drag,
+    Collection: Collection,
+    View: View,
+    Drag: Drag,
 
-  create: create,
-  Palette: Palette,
-  Slider: Slider,
-  colorutil: colorUtil,
-  svgvml: svgvml
+    create: create,
+    Palette: Palette,
+    Slider: Slider,
+    colorutil: colorUtil,
+    svgvml: svgvml
 };
 
 module.exports = colorPicker;

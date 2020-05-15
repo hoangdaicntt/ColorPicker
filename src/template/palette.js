@@ -23,9 +23,9 @@ module.exports = function(context) {
     '{{/each}}',
     '</ul>',
     '<div class="{{cssPrefix}}clearfix" style="overflow:hidden">',
-    '<input type="button" class="{{cssPrefix}}palette-toggle-slider" value="{{detailTxt}}" />',
     '<input type="text" class="{{cssPrefix}}palette-hex" value="{{color}}" maxlength="7" />',
     '<span class="{{cssPrefix}}palette-preview" style="background-color:{{color}};color:{{color}}">{{color}}</span>',
+    '<input type="button" class="{{cssPrefix}}palette-toggle-slider" value="{{detailTxt}}" />',
     '</div>'
   ].join('\n');
 

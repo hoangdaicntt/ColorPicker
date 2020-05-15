@@ -74,7 +74,7 @@ function ColorPicker(options) {
         '#ba8baf',
         '#a16946'
       ],
-      cssPrefix: 'tui-colorpicker-',
+      cssPrefix: 'hd-colorpicker-',
       detailTxt: 'Detail',
       id: generateId(),
       usageStatistics: true

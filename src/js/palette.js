@@ -34,7 +34,7 @@ function Palette(options, container) {
    */
   this.options = extend(
     {
-      cssPrefix: 'tui-colorpicker-',
+      cssPrefix: 'hd-colorpicker-',
       preset: [
         '#181818',
         '#282828',

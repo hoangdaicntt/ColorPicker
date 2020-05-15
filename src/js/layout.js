@@ -26,7 +26,7 @@ function Layout(options, container) {
    */
   this.options = extend(
     {
-      cssPrefix: 'tui-colorpicker-'
+      cssPrefix: 'hd-colorpicker-'
     },
     options
   );
