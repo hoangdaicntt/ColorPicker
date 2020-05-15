@@ -1,7 +1,7 @@
 .hd-colorpicker-container {
     position: absolute;
     top: 65px;
-    z-index: 99;
+    z-index: 1005;
     max-width: 100%;
     width: 380px;
     right: 0;
@@ -32,4 +32,94 @@
     border: none;
     height: 100%;
     cursor: pointer;
+}
+
+.hd-colorpicker-bottom {
+    display: flex;
+    justify-content: space-between;
+    /* border-bottom: 1px solid lightgray; */
+    padding: 12px 0;
+}
+
+.hd-color-input-container {
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100% - 100px);
+    border-radius: 4px;
+    padding: 0px 6px;
+}
+
+input.hd-colorpicker-palette-hex {
+    border: none;
+    /* width: 100%; */
+    width: calc(100% - 50px);
+    display: block;
+    height: 32px;
+    outline: none;
+    /* padding: 6px; */
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #4e4e4e;
+}
+
+span.hd-colorpicker-palette-preview {
+    width: 28px;
+    height: 28px;
+    color: #ffffff00 !important;
+    border-radius: 3px;
+    display: block;
+}
+
+input.hd-colorpicker-palette-toggle-slider {
+    border: 1px solid #2196F3;
+    color: #2196F3;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: white;
+    padding: 6px 12px;
+    cursor: pointer;
+    /* font-family: Roboto; */
+    font-family: 'Roboto', sans-serif;
+}
+
+.hd-colorpicker-slider-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.hd-colorpicker-slider-left.hd-colorpicker-slider-part {
+    width: calc(100% - 40px);
+    /* height: 50px; */
+}
+
+.hd-colorpicker-slider-right.hd-colorpicker-slider-part {
+    /* width: 40px; */
+    /* display: flex; */
+    /* justify-content: flex-end; */
+}
+
+svg.hd-colorpicker-svg.hd-colorpicker-svg-huebar {
+    width: 24px;
+    height: 120px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+svg.hd-colorpicker-svg.hd-colorpicker-svg-slider {
+    width: 100%;
+    border-radius: 4px;
+    height: 120px;
+}
+
+.hd-colorpicker-slider-container.show {
+    display: flex !important;
+}
+
+.hd-colorpicker-selected {
+    border-radius: 100%;
 }

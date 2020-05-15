@@ -92,7 +92,7 @@ var utils = {
    * @ignore
    */
   sendHostName: function() {
-    sendHostname('color-picker', 'UA-129987462-1');
+    // sendHostname('color-picker', 'UA-129987462-1');
   }
 };
 
