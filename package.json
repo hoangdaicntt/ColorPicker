@@ -12,7 +12,8 @@
     "serve": "webpack-dev-server --inline --hot -d",
     "doc:serve": "tuidoc --serv",
     "doc": "tuidoc",
-    "note": "tui-note"
+    "note": "tui-note",
+    "webpack": "webpack"
   },
   "description": "HD Color Picker",
   "repository": {

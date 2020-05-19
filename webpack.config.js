@@ -37,7 +37,7 @@ module.exports = function (env, argv) {
     var isMinified = !!argv.minify;
     var FILENAME = pkg.name + (isMinified ? '.min' : '');
     var BANNER = [
-        'TOAST UI Color Picker',
+        'HD Color Picker',
         '@version ' + pkg.version,
         '@author ' + pkg.author,
         '@license ' + pkg.license
@@ -49,7 +49,7 @@ module.exports = function (env, argv) {
         output: {
             library: ['HDColorPicker'],
             libraryTarget: 'umd',
-            path: path.resolve('C:\\Users\\hoangdai\\Documents\\UI\\PlaceIt\\edit-image\\src\\plugins\\color-picker'),
+            path: path.resolve('C:\\Users\\hoang_000\\Documents\\UI\\PlaceIt\\edit-image\\src\\plugins\\color-picker'),
             publicPath: 'dist',
             filename: FILENAME + '.js'
         },
